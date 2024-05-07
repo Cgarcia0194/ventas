@@ -1,0 +1,134 @@
+body {
+    max-width: 550px;
+    font-family: Arial;
+}
+
+.txt-heading {
+    margin: 20px 0px;
+    text-align: left;
+    background: #cccccc;
+    padding: 5px 10px;
+    overflow: auto;
+}
+
+#shopping-cart .txt-heading {
+    border-top: #607d8b 2px solid;
+    background: #ffffff;
+    border-bottom: #607d8b 2px solid;
+}
+
+.txt-heading-label {
+    display: inline-block;
+}
+
+#shopping-cart .txt-heading .txt-heading-label {
+    margin-top: 5px;
+}
+
+.cart-item {
+    border-bottom: #79b946 1px dotted;
+    padding: 10px;
+}
+
+#product-grid {
+    margin-bottom: 30px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.product-item {
+    display: inline-block;
+    margin: 8px;
+    border: #CCC 3px solid;
+}
+
+.product-title {
+    position: absolute;
+    bottom: 0px;
+    background: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    padding: 5px 0px;
+    color: #f1f1f1;
+}
+
+.product-image {
+    height: 110px;
+    width: 150px;
+    position: relative;
+}
+
+.product-image img {
+    width: 100%;
+    height: 110px;
+}
+
+.product-footer {
+    padding: 20px 10px 10px;
+    overflow: auto;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.cart-info {
+    text-align: right;
+    display: inline-block;
+    width: 15%;
+}
+
+.cart-info.title {
+    width: 50%;
+    text-align: left;
+}
+
+.cart-info.price {
+    min-width: 20%;
+    position: relative;
+}
+
+.cart-info.action {
+    width: 5%;
+    vertical-align: middle;
+    float: right;
+}
+
+.cart-item-container {
+    padding: 5px 10px;
+    border-bottom: #e2e2e2 1px solid;
+}
+
+.cart-status {
+    color: #666;
+    float: right;
+    font-size: 0.8em;
+    padding: 0px 10px;
+    line-height: 18px;
+}
+
+#btnEmpty img {
+    cursor: pointer;
+}
+
+.cart-item-container.header {
+    background: #CCC;
+    border-bottom: #b9b8b8 1px solid;
+}
+
+.box {
+    background-color: blue;
+    border: solid 1px red;
+}
+
+.btn-submit {
+    margin-top: 20px;
+    padding: 5px 20px;
+    background: #333;
+    color: #FFF;
+    border-radius: 2px;
+    border: #232323 1px solid;
+}
